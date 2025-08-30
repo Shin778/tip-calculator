@@ -1,0 +1,27 @@
+.tip-selector {
+  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: hsl(183, 80%, 24%);
+  color: white;
+  font-size: 24px;
+}
+
+button:hover,
+button:focus {
+  background-color: hsl(173, 61%, 77%);
+  color: hsl(183, 100%, 15%);
+}
+
+@media (max-width: 800px) {
+  .tip-selector {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

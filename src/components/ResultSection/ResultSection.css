@@ -1,0 +1,59 @@
+.result-section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 100%;
+  background-color: hsl(183, 100%, 15%);
+}
+
+.result {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.result label {
+  text-align: left;
+  padding: 30px;
+  color: hsl(189, 47%, 97%);
+  max-width: 200px;
+  font-weight: 700;
+}
+
+.result small {
+  color: hsl(184, 14%, 56%);
+  font-weight: 700;
+}
+
+.result span {
+  padding-right: 30px;
+  color: hsl(172, 67%, 45%);
+  font-size: 50px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  margin: 40px;
+}
+
+.button-wrapper button {
+  color: hsl(183, 100%, 15%);
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: hsl(183, 80%, 24%);
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.button-wrapper button:hover {
+  background-color: hsl(173, 61%, 77%);
+  color: hsl(183, 100%, 15%);
+}
