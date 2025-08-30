@@ -31,7 +31,7 @@ Built with clean component-based architecture and modern CSS.
 
 ## 🚀 Demo
 
-🔗 [Live Demo on Vercel](https://your-demo-link.vercel.app/)
+🔗 [Live Demo on Vercel](https://tip-calculator-one-dun.vercel.app/)
 
 ---
 
